@@ -4,8 +4,8 @@ from player import Player
 class Game:
     def __init__(self):
         self.remaining_stones = 14
-        self.boy = Player(strategy='random')
-        self.computer = Player(strategy='optimal')
+        self.boy = Player(strategy="random")
+        self.computer = Player(strategy="optimal")
         self.current_player = self.boy
         self.winner = None
 

@@ -6,4 +6,4 @@ if __name__ == "__main__":
     config = yaml.safe_load(open("config.yml"))
     mc = MonteCarlo(config["n_iter"])
     mc.run_simulation()
-    print('Probability of boy winning is: {}'.format(mc.boy_wins/config["n_iter"]))
+    print("Probability of boy winning is: {}".format(mc.boy_wins / config["n_iter"]))
